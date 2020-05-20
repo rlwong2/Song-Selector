@@ -1,0 +1,45 @@
+{
+  "name": "song-selector",
+  "version": "1.0.0",
+  "description": "Application to assist in creating list of top songs via rank choice voting",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "jest",
+    "react-dev": "webpack -d --watch",
+    "server-dev": "nodemon server/index.js",
+    "build": "webpack --mode production",
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rlwong2/Song-Selector.git"
+  },
+  "author": "Riley Wong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rlwong2/Song-Selector/issues"
+  },
+  "homepage": "https://github.com/rlwong2/Song-Selector#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-transform-runtime": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/runtime": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "jest": "^26.0.1",
+    "morgan": "^1.10.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.15",
+    "path": "^0.12.7",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
+  }
+}
